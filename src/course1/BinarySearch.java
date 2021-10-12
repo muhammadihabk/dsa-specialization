@@ -8,19 +8,7 @@ public class BinarySearch {
 		BinarySearch ls = new BinarySearch();
 		ls.printBinarySearch();
 	}
-
 	
-	// key: 17
-	// 2 4 5 8 0 2 4 6 8
-	// 1 2 3 4 5 6 7 8 9
-	//                 m
-	// l         l   l lh
-	
-	// key: 0
-	// 2 4 5 8 0 2 4 6 8
-	// 1 2 3 4 5 6 7 8 9
-	//   m
-	// lh
 	public int binarySearch(int[] nums, int low, int high, int key) {
 		int mid = (high - low) / 2 + low;
 		if(high == low && nums[mid] > key) {
