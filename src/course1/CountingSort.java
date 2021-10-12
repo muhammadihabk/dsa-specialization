@@ -1,11 +1,11 @@
-package sort;
+package course1;
 
 import java.util.Scanner;
 
-public class CountSort {
+public class CountingSort {
 
 	public static void main(String[] args) {
-		CountSort cs = new CountSort();
+		CountingSort cs = new CountingSort();
 		cs.printSortedArray();
 	}
 	
