@@ -44,5 +44,4 @@ public class CountingSort {
 			System.out.print(nums[i] + " ");
 		}
     }
-
 }
