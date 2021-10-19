@@ -24,10 +24,10 @@ public class BinarySearch {
 	}
 
 	public void printBinarySearch() {
-		Scanner input = new Scanner(System.in);
-		System.out.print("Key: ");
-		int key = input.nextInt();
-		System.out.print("Number of elements: ");
+	Scanner input = new Scanner(System.in);
+	System.out.print("Key: ");
+	int key = input.nextInt();
+	System.out.print("Number of elements: ");
         int length = input.nextInt();
         int[] nums = new int[length];
         for(int i = 0; i < nums.length; i++) {
